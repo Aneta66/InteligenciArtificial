@@ -1,15 +1,15 @@
 import cv2 as cv
 import os
 
-input_folder = 'C:/Users/anais/OneDrive/Escritorio/TareaIA/InteligenciArtificial/Animales/hymenoptera_data/val/ants'
-output_folder = 'C:/Users/anais/OneDrive/Escritorio/TareaIA/InteligenciArtificial/Animales/hormigas'
+input_folder = 'C:/Users/anais/OneDrive/Escritorio/TareaIA/InteligenciArtificial/Animales/Ladybug'
+output_folder = 'C:/Users/anais/OneDrive/Escritorio/TareaIA/InteligenciArtificial/Animales/mariquitas'
 
 # Crear carpeta de salida si no existe
 os.makedirs(output_folder, exist_ok=True)
 
 # Límite de imágenes a procesar
 limite = 150000
-contador = 13000
+contador = 5000
 
 for i, filename in enumerate(os.listdir(input_folder)):
     if filename.lower().endswith(('.jpg', '.png', '.jpeg')):
