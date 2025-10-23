@@ -1,0 +1,3 @@
+Animales/*.zip filter=lfs diff=lfs merge=lfs -text
+DetectarEmociones/*.xml filter=lfs diff=lfs merge=lfs -text
+Emociones.yml filter=lfs diff=lfs merge=lfs -text
